@@ -1,0 +1,504 @@
+.woordkunst-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.woordkunst-text03 {
+  color: #595959;
+}
+.woordkunst-gallery {
+  width: 100%;
+  height: 1209px;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  max-width: 1400px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 0px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a b b" "a b b" "a c d" "a c d"  "e e d" "e e f" "e e f";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.woordkunst-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  z-index: 100;
+  position: relative;
+  grid-area: a;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.woordkunst-container01:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container02 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  align-content: space-around;
+  flex-direction: row;
+  background-color: var(--dl-color-primary-100);
+}
+.woordkunst-container03 {
+  flex: 4;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.woordkunst-text04 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text05 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+}
+.woordkunst-image {
+  flex: 1;
+  width: 100px;
+  align-self: flex-end;
+  object-fit: cover;
+}
+.woordkunst-container04 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: b;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGdyZWVuJTIwbGFtcCUyMHBhc3RlbHxlbnwwfHx8fDE2MjY0Mzk4NDA&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container04:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container05 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.woordkunst-text39 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  height: 100%;
+  font-size: 22px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Merriweather;
+}
+.woordkunst-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: d;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHllbGxvdyUyMGljZWNyZWFtfGVufDB8fHx8MTYyNjQzOTg4OQ&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container06:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container07 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text46 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text47 {
+  color: #FFFFFF;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: e;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1551500226-b50b653e33e8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxwYXN0ZWwlMjBjb2ZmZWUlMjBncmVlbnxlbnwwfHx8fDE2MjY0Mzk5MzA&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container08:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container09 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text49 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text50 {
+  color: #FFFFFF;
+  height: auto;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-container10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: f;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1591101761702-0c4927df1d52?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fHBhc3RlbCUyMHBpbmslMjBjb3R0b258ZW58MHx8fHwxNjI2NDQwMDUw&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container10:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container11 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text52 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text53 {
+  color: #FFFFFF;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-gallery1 {
+  width: 100%;
+  height: 1200px;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  max-width: 1400px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 0px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a b b" "a b b" "a c d" "a c d"  "e e d" "e e f" "e e f";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.woordkunst-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: b;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGdyZWVuJTIwbGFtcCUyMHBhc3RlbHxlbnwwfHx8fDE2MjY0Mzk4NDA&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container12:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container13 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.woordkunst-text55 {
+  color: var(--dl-color-gray-white);
+  width: 80%;
+  height: 100%;
+  font-size: 22px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: left;
+  font-family: Merriweather;
+}
+.woordkunst-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: c;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1528696892704-5e1122852276?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHBpbmslMjB0ZWElMjBwYXN0ZWx8ZW58MHx8fHwxNjI2NDM5ODU2&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container14:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container15 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text62 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text63 {
+  color: #FFFFFF;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: d;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHllbGxvdyUyMGljZWNyZWFtfGVufDB8fHx8MTYyNjQzOTg4OQ&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container16:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container17 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  padding-right: 1em;
+  flex-direction: column;
+}
+.woordkunst-text65 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text66 {
+  color: #FFFFFF;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-container18 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: e;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1551500226-b50b653e33e8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEwfHxwYXN0ZWwlMjBjb2ZmZWUlMjBncmVlbnxlbnwwfHx8fDE2MjY0Mzk5MzA&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container18:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container19 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text68 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text69 {
+  color: #FFFFFF;
+  height: auto;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-container20 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  grid-area: f;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1591101761702-0c4927df1d52?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fHBhc3RlbCUyMHBpbmslMjBjb3R0b258ZW58MHx8fHwxNjI2NDQwMDUw&ixlib=rb-1.2.1&w=1400');
+  background-position: center;
+}
+.woordkunst-container20:hover {
+  transform: scale(0.98);
+}
+.woordkunst-container21 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.woordkunst-text71 {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.woordkunst-text72 {
+  color: #FFFFFF;
+  margin-top: var(--dl-space-space-halfunit);
+}
+.woordkunst-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+@media(max-width: 991px) {
+  .woordkunst-gallery {
+    height: 1200px;
+    grid-gap: var(--dl-space-space-unit);
+  }
+  .woordkunst-text04 {
+    text-align: center;
+  }
+  .woordkunst-text05 {
+    text-align: center;
+  }
+  .woordkunst-text39 {
+    text-align: left;
+  }
+  .woordkunst-text46 {
+    text-align: center;
+  }
+  .woordkunst-text47 {
+    text-align: center;
+  }
+  .woordkunst-text49 {
+    text-align: center;
+  }
+  .woordkunst-text50 {
+    text-align: center;
+  }
+  .woordkunst-text52 {
+    text-align: center;
+  }
+  .woordkunst-text53 {
+    text-align: center;
+  }
+  .woordkunst-gallery1 {
+    height: 1200px;
+    grid-gap: var(--dl-space-space-unit);
+  }
+  .woordkunst-text55 {
+    text-align: left;
+  }
+  .woordkunst-text62 {
+    text-align: center;
+  }
+  .woordkunst-text63 {
+    text-align: center;
+  }
+  .woordkunst-text65 {
+    text-align: center;
+  }
+  .woordkunst-text66 {
+    text-align: center;
+  }
+  .woordkunst-text68 {
+    text-align: center;
+  }
+  .woordkunst-text69 {
+    text-align: center;
+  }
+  .woordkunst-text71 {
+    text-align: center;
+  }
+  .woordkunst-text72 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .woordkunst-gallery {
+    height: auto;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+  }
+  .woordkunst-text39 {
+    text-align: left;
+  }
+  .woordkunst-gallery1 {
+    height: auto;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+  }
+  .woordkunst-text55 {
+    text-align: left;
+  }
+}
+@media(max-width: 479px) {
+  .woordkunst-gallery {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .woordkunst-text39 {
+    color: var(--dl-color-gray-white);
+    font-size: 16px;
+    text-align: left;
+    font-family: Merriweather;
+  }
+  .woordkunst-gallery1 {
+    width: 100%;
+    padding: var(--dl-space-space-unit);
+  }
+  .woordkunst-text55 {
+    color: var(--dl-color-gray-white);
+    font-size: 16px;
+    text-align: left;
+    font-family: Merriweather;
+  }
+}

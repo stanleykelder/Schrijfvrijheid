@@ -1,0 +1,137 @@
+.onderzoek-rad-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.onderzoek-rad-blogtitel-en-datum {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.onderzoek-rad-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.onderzoek-rad-titel {
+  align-self: center;
+  line-height: 1.55;
+}
+.onderzoek-rad-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.onderzoek-rad-datum {
+  color: var(--dl-color-zandkleuren-9b9388);
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.55;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.onderzoek-rad-foto {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+}
+.onderzoek-rad-tekst {
+  padding-top: var(--dl-space-space-doubleunit);
+}
+.onderzoek-rad-andere-blogs {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: column;
+  background-color: var(--dl-color-zandkleuren-f5eeeb);
+}
+.onderzoek-rad-lees-ook {
+  padding-left: 0px;
+}
+.onderzoek-rad-laatste-3-blogposts {
+  width: 90%;
+  display: flex;
+  max-width: 100%;
+  padding-top: 48px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 48px;
+  justify-content: space-around;
+}
+.onderzoek-rad-navlink {
+  display: contents;
+}
+.onderzoek-rad-component1 {
+  text-decoration: none;
+}
+.onderzoek-rad-navlink1 {
+  display: contents;
+}
+.onderzoek-rad-component2 {
+  text-decoration: none;
+}
+.onderzoek-rad-navlink2 {
+  display: contents;
+}
+.onderzoek-rad-component3 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .onderzoek-rad-laatste-3-blogposts {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .onderzoek-rad-blogtitel-en-datum {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .onderzoek-rad-tekst {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .onderzoek-rad-laatste-3-blogposts {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .onderzoek-rad-blogtitel-en-datum {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .onderzoek-rad-foto {
+    width: 100pxt;
+    z-index: 100;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .onderzoek-rad-laatste-3-blogposts {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

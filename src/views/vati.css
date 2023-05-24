@@ -1,0 +1,427 @@
+.vati-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.vati-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-quadruple);
+  flex-direction: column;
+}
+.vati-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.vati-foto {
+  float: left;
+  width: 35%;
+  aspect-ratio: 3/4;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.vati-container3 {
+  display: inline-block;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.vati-titel {
+  width: 100%;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: Arial;
+  font-weight: 500;
+  line-height: 1.55;
+  text-transform: none;
+}
+.vati-datum {
+  color: var(--dl-color-zandkleuren-9b9388);
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.55;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.vati-text06 {
+  display: inline;
+}
+.vati-text07 {
+  display: inline;
+}
+.vati-navlink {
+  text-decoration: underline;
+}
+.vati-text19 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text20 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text21 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text22 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text23 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text24 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text25 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text26 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text27 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text28 {
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 300;
+}
+.vati-text36 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text37 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text38 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text39 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text40 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text41 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text42 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text43 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text44 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text45 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text46 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text47 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text48 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text49 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text50 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text51 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text52 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text53 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-text54 {
+  font-style: normal;
+  font-weight: 300;
+}
+.vati-andere-blogs {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: column;
+  background-color: var(--dl-color-zandkleuren-f5eeeb);
+}
+.vati-lees-ook {
+  padding-left: 0px;
+}
+.vati-laatste-3-blogposts {
+  width: 90%;
+  display: flex;
+  padding: 48px;
+  max-width: 100%;
+  justify-content: space-around;
+}
+.vati-navlink1 {
+  display: contents;
+}
+.vati-component1 {
+  text-decoration: none;
+}
+.vati-navlink2 {
+  display: contents;
+}
+.vati-component2 {
+  text-decoration: none;
+}
+.vati-navlink3 {
+  display: contents;
+}
+.vati-component3 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .vati-text17 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text18 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text19 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text20 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text21 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text22 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text23 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text24 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text25 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text26 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text27 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text28 {
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 300;
+  }
+  .vati-text29 {
+    font-family: Courier New;
+  }
+  .vati-text36 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text37 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text38 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text39 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text40 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text41 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text42 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text43 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text44 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text45 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text46 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text47 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text48 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text49 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text50 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text51 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text52 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text53 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-text54 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .vati-laatste-3-blogposts {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .vati-container1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .vati-container2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .vati-foto {
+    width: 100%;
+    align-self: flex-start;
+    border-radius: Radius 4;
+  }
+  .vati-laatste-3-blogposts {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .vati-container1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .vati-container2 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .vati-foto {
+    width: 100%;
+    align-self: flex-start;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .vati-datum {
+    color: var(--dl-color-zandkleuren-9b9388);
+    font-size: 14px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.55;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .vati-laatste-3-blogposts {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

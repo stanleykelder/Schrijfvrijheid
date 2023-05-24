@@ -1,0 +1,39 @@
+.button-outline-container {
+  display: flex;
+  position: relative;
+}
+.button-outline-button {
+  color: #595959;
+  display: flex;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: transparent;
+}
+.button-outline-button:hover {
+  color: var(--dl-color-primary-100);
+}
+.button-outline-text {
+  color: var(--dl-color-zandkleuren-6f675c);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.button-outline-image {
+  width: 14px;
+  height: 14px;
+  align-self: center;
+  object-fit: cover;
+}
+
+
+
+
+
+.button-outline-root-class-name5 {
+  align-self: center;
+}
+

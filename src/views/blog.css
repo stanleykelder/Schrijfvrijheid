@@ -1,0 +1,84 @@
+.blog-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.blog-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.blog-blog {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog-navlink {
+  display: contents;
+}
+.blog-albert-woltjes {
+  text-decoration: none;
+}
+.blog-navlink1 {
+  display: contents;
+}
+.blog-albert-gerrits {
+  text-decoration: none;
+}
+.blog-navlink2 {
+  display: contents;
+}
+.blog-onderzoek-rad {
+  text-decoration: none;
+}
+.blog-navlink3 {
+  display: contents;
+}
+.blog-een-bijzondere-proeverij {
+  text-decoration: none;
+}
+.blog-navlink4 {
+  display: contents;
+}
+.blog-moeder {
+  text-decoration: none;
+}
+.blog-navlink5 {
+  display: contents;
+}
+.blog-heilige-wandelingen {
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .blog-blog {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .blog-blog {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}

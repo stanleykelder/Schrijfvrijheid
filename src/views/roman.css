@@ -1,0 +1,182 @@
+.roman-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.roman-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.roman-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.roman-container2 {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.roman-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.roman-link {
+  display: contents;
+}
+.roman-component1 {
+  text-decoration: none;
+}
+.roman-text08 {
+  color: var(--dl-color-primary-063637);
+}
+.roman-container4 {
+  flex: 0 0 auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.roman-container5 {
+  flex: 0 0 auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.roman-image {
+  width: 200px;
+  object-fit: cover;
+}
+.roman-text09 {
+  color: var(--dl-color-primary-015f59);
+  font-style: normal;
+  font-weight: 600;
+}
+.roman-text10 {
+  padding-left: var(--dl-space-space-doubleunit);
+}
+.roman-text11 {
+  color: var(--dl-color-primary-063637);
+}
+.roman-container6 {
+  flex: 0 0 auto;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.roman-text12 {
+  padding-right: var(--dl-space-space-doubleunit);
+}
+.roman-container7 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.roman-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.roman-text13 {
+  color: var(--dl-color-primary-015f59);
+  font-style: normal;
+  font-weight: 600;
+}
+.roman-container8 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.roman-text14 {
+  color: var(--dl-color-zandkleuren-6f675c);
+}
+.roman-text15 {
+  color: var(--dl-color-zandkleuren-b6b1a9);
+}
+@media(max-width: 991px) {
+  .roman-text14 {
+    text-align: center;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 767px) {
+  .roman-container4 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .roman-text10 {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: 0px;
+  }
+  .roman-container6 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .roman-text12 {
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .roman-text14 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+}
+@media(max-width: 479px) {
+  .roman-container4 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .roman-text10 {
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: 0px;
+  }
+  .roman-container6 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .roman-text12 {
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .roman-text14 {
+    text-align: center;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+}

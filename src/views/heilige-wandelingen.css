@@ -1,0 +1,163 @@
+.heilige-wandelingen-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.heilige-wandelingen-blogtitel-en-datum {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.heilige-wandelingen-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.heilige-wandelingen-titel {
+  align-self: center;
+  line-height: 1.55;
+}
+.heilige-wandelingen-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  max-width: 700px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.heilige-wandelingen-datum {
+  color: var(--dl-color-zandkleuren-9b9388);
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1.55;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: none;
+  text-decoration: none;
+}
+.heilige-wandelingen-foto {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+}
+.heilige-wandelingen-tekst {
+  padding-top: var(--dl-space-space-doubleunit);
+}
+.heilige-wandelingen-andere-blogs {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 48px;
+  flex-direction: column;
+  background-color: var(--dl-color-zandkleuren-f5eeeb);
+}
+.heilige-wandelingen-lees-ook {
+  padding-left: 0px;
+}
+.heilige-wandelingen-laatste-3-blogposts {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-items: center;
+  justify-content: space-between;
+}
+.heilige-wandelingen-container3 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.heilige-wandelingen-navlink {
+  display: contents;
+}
+.heilige-wandelingen-component1 {
+  text-decoration: none;
+}
+.heilige-wandelingen-container4 {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  justify-content: space-between;
+}
+.heilige-wandelingen-navlink1 {
+  display: contents;
+}
+.heilige-wandelingen-component2 {
+  text-decoration: none;
+}
+.heilige-wandelingen-container5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heilige-wandelingen-navlink2 {
+  display: contents;
+}
+.heilige-wandelingen-component3 {
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .heilige-wandelingen-laatste-3-blogposts {
+    flex-direction: column;
+  }
+  .heilige-wandelingen-container3 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+  .heilige-wandelingen-container4 {
+    margin-right: 0px;
+    margin-bottom: 48px;
+  }
+}
+@media(max-width: 767px) {
+  .heilige-wandelingen-blogtitel-en-datum {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .heilige-wandelingen-tekst {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .heilige-wandelingen-laatste-3-blogposts {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .heilige-wandelingen-blogtitel-en-datum {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .heilige-wandelingen-foto {
+    width: 100pxt;
+    z-index: 100;
+    border-radius: var(--dl-radius-radius-radius4);
+  }
+  .heilige-wandelingen-tekst {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .heilige-wandelingen-laatste-3-blogposts {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+}
